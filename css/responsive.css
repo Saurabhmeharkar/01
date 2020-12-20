@@ -1,0 +1,107 @@
+.ham-burger i {
+    font-size: 26px;
+    height: 35px;
+    width: 35px;
+    color: #18191b;
+    padding: 6px;
+    display: none;
+}
+
+@media(max-width:800px) {
+    /* Hamburger Start */
+    header {
+        padding: 15px;
+        position: fixed;
+    }
+    .ham-burger i {
+        display: inline-block;
+    }
+    .navbar {
+        position: absolute;
+        background-color: #e5e6eb;
+        border-top: 1px solid #18191b;
+        width: 100%;
+        left: 0;
+        top: 100px;
+        padding: 0;
+        justify-content: center;
+        display: none;
+    }
+    header .navbar ul {
+        padding: 5px 0;
+    }
+    header .navbar ul li {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    header .navbar ul li a {
+        line-height: 37px;
+        font-weight: 600;
+    }
+}
+
+@media(max-width:700px) {
+    header .logo img,footer .logo img {
+        max-width: 80px;
+    }
+    .navbar {
+        top: 90px;
+    }
+    .home-section .home-content {
+        text-align: center;
+        padding: 260px 50px;
+    }
+    .service-content {
+        display: block;
+    }
+    .service-content-one, .service-content-two {
+        flex: 0 0 100%;
+        max-width: 0 0 100%;
+    }
+    .midline {
+        display: none;
+    }
+    .service-section img {
+        max-width: 50px;
+    }
+    .contact-section .contact-form .col-md-12, .contact-section .contact-form .col-lg-12 {
+        flex: 0 0 100%;
+        max-width: 0 0 100%;
+    }
+    input, select, textarea {
+        width: 100%;
+    }
+    .service-content {
+        padding: 10px;
+    }
+}
+
+@media(max-width:500px) {
+    header .logo img,footer .logo img {
+        max-width: 60px;
+    }
+    .navbar {
+        top: 75px;
+    }
+    .service-content .service-content-one h1, .service-content-two h1{
+        font-size: 2rem;
+    }
+    .home-section .home-content {
+        padding: 270px 40px;
+    }
+    .home-section .home-content h1 {
+        font-size: 2rem;
+    }
+    .contact-section .contact-form {
+        padding: 30px 15px;
+    }
+    footer .social-link a i{
+        margin: 10px 5px;
+    }
+    footer p{
+        font-size: 0.8rem;
+    }
+}
