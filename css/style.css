@@ -218,8 +218,6 @@ header.fixed {
     color: #18191b;
 }
 
-
-
 /* About section  */
 
 .about-section {
@@ -242,7 +240,6 @@ header.fixed {
 }
 
 /* Contact section */
-
 
 .contact-section{
     /* height: 100vh; */
@@ -332,7 +329,7 @@ input, select, textarea{
     font-weight: 600;
 }
 
-/* footer section */
+/* Footer section */
 
 footer{
     background-color: #18191b;
