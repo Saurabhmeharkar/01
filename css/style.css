@@ -180,14 +180,14 @@ header.fixed {
 .project-section{
     padding: 100px 0;
     display: flex;
-    background-image: url(img/service-2.jpg);
+    background-image: url(./img/service-2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     filter: grayscale(200);
     z-index: -1;
 }
-.project-section::before {
+/* .project-section::before {
     position: absolute;
     content: '';
     top: 0;
@@ -197,7 +197,7 @@ header.fixed {
     background-color: rgb(253, 253, 253);
     opacity: 0.7;
     z-index: -1;
-}
+} */
 
 .project-section .project-content h1{
     font-size: 3rem;
