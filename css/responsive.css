@@ -52,7 +52,7 @@
         max-width: 50px;
     }
     .navbar {
-        top: 90px;
+        top: 75px;
     }
     .home-section .home-content {
         text-align: center;
@@ -91,7 +91,7 @@
         max-width: 40px;
     }
     .navbar {
-        top: 75px;
+        top: 60px;
     }
     .service-content .service-content-one h1, .service-content-two h1{
         font-size: 2rem;
