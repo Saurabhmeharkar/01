@@ -126,7 +126,7 @@ header.fixed {
 /* Service section */
 
 .service-section {
-    padding: 100px 0;
+    padding: 90px 0;
     background-color: #e5e6eb;
 }
 
@@ -179,7 +179,7 @@ header.fixed {
 /* Project section */
 
 .project-section{
-    padding: 100px 0;
+    padding: 90px 0;
     display: flex;
     background-image: url("service-2.jpg");
     background-position: center;
@@ -223,7 +223,7 @@ header.fixed {
 
 .about-section {
     background-color: #e5e6eb;
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 .about-section .about-content {
@@ -244,7 +244,7 @@ header.fixed {
 
 .contact-section{
     /* height: 100vh; */
-    padding: 100px 0;
+    padding: 90px 0;
     background-image: url("contact-2.jpg");
     background-position: center;
     background-size: cover;
@@ -339,6 +339,7 @@ footer{
 
 footer .logo img{
     max-width: 70px;
+    margin-left: 10px;
 }
 
 footer .social-link a{
