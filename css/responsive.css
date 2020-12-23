@@ -27,6 +27,15 @@
         padding: 0;
         justify-content: center;
         display: none;
+         animation: DownNav 0.5s ease;
+    }
+    @keyframes DownNav {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(-0%);
+        }
     }
     header .navbar ul {
         padding: 5px 0;
